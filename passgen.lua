@@ -67,12 +67,12 @@ local function parse_args(args)
             print([[
 Password Generator (Lua version)
 Opções:
-  -nl, --no-lowercase    Exclude lowercase
-  -nu, --no-uppercase    Exclude uppercase
+  -nl, --no-lowercase    Exclude lowercase letters
+  -nu, --no-uppercase    Exclude uppercase letters
   -nn, --no-numbers      Exclude numbers
   -ns, --no-symbols      Exclude symbols
-  -l <tamanho>           Password size (default: 32)
-  -h, --help             Show usage
+  -l <length>            Specify the password length (default: 32)
+  -h, --help             Show this help message
 ]])
             os.exit(0)
         else

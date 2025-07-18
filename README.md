@@ -35,37 +35,9 @@ lua passgen.lua [options]
 
 ## Examples
 
-Generate a 16-character password with all character sets:
+For practical usage examples and sample outputs, please refer to the [`examples.md`](examples.md) file. 
+It contains detailed command-line options and example runs to help you get started quickly.
 
-```bash
-lua passgen.lua -l 16
-```
+## License
 
-Generate a 24-character password with no symbols:
-
-```bash
-lua passgen.lua -ns -l 24
-```
-
-Generate a password with only numbers:
-
-```bash
-lua passgen.lua -nl -nu -ns -l 10
-```
-
-Show help:
-
-```bash
-lua passgen.lua --help
-```
-
-## Example Output
-
-```bash
-$ lua passgen.lua -l 20
-
-Generated Password:
-────────────────────────
- *w8iv7@-Hrw#Z^xu!wby
-────────────────────────
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
